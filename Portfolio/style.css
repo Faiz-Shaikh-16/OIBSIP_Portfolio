@@ -1,0 +1,326 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://e0.pxfuel.com/wallpapers/27/304/desktop-wallpaper-programming-code-dark-colorful.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10%;
+
+}
+
+.navbar {
+    /* background-color: white; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    height: 100px;
+    /* border: 1px solid white; */
+    border-radius: 100%;
+    padding: 20px;
+
+    cursor: pointer;
+}
+
+.navbar ul li {
+
+    display: inline-block;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: x-large;
+    color: white;
+
+
+}
+
+a:hover::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    /* transition: 0.5ms; */
+}
+
+.mid-sec {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid {
+    /* padding: 40px; */
+    width: 100%;
+    margin-left: 70px;
+
+
+}
+
+.mid h1 {
+    color: white;
+    font-size: xxx-large;
+}
+
+.mid p {
+    font-weight: 500;
+    color: white;
+    font-size: x-large;
+}
+
+.mid1 img {
+    width: 80%;
+    /* padding: 50px; */
+    /* margin-left:20%; */
+}
+
+span {
+    color: bisque;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+    border: 3px solid blue;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 1s;
+    transform: scale(1.04);
+}
+
+#profile {
+    height: 300px;
+    width: 300px;
+    border-radius: 90%;
+
+}
+
+.about {
+    background-color: bisque;
+    display: flex;
+    padding: 60px 50px;
+    margin-top: 10%;
+
+}
+
+.abt1 h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.abt2 p {
+    color: rgb(0, 0, 0);
+    padding: 0px 50px;
+    font-size: x-large;
+}
+
+.abt2 {
+    margin-top: 8%;
+}
+
+.skills {
+    padding: 60px 50px;
+}
+
+.icon {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.sk {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.skills {
+    background-color: bisque;
+    margin-top: 20%;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.skill-list div:hover {
+    transform: scale(1.04);
+}
+
+.skill-list div {
+    background-color: #002D62;
+    padding: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.skill-list i {
+    margin-left: 40%;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.skill-list h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill-list p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: large;
+}
+
+.skill-list a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+.skill-list a:hover {
+    color: rgb(191, 191, 64);
+}
+
+.project {
+    background-color: blanchedalmond;
+    padding: 40px 50px;
+    margin-top: 20%;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    /* cursor: pointer; */
+    transition: 0.5s ease;
+
+}
+
+.project-list img:hover {
+    transform: scale(1.04);
+}
+
+.project-list img {
+    width: 100%;
+    /* height: 80%; */
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.pr {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.project-list h3 {
+    text-align: center;
+}
+
+.project-list i {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 42%;
+    line-height: 2;
+}
+
+.contact {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    /* margin */
+    margin: 50px 0;
+    color: white;
+    width: auto;
+    /* float: left; */
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.logos {
+    font-size: x-large;
+    margin: 0px 10px;
+    transition: 0.5s;
+}
+
+.logos:hover {
+    color: red;
+}
+
+
+#qu {
+    padding: 10px;
+    color: white;
+    /* text-align: right; */
+    margin: 50px 0;
+    /* float: right; */
+    width: auto;
+    margin-right: 10%;
+}
+
+#b1 {
+    cursor: pointer;
+}
+
+#g1 {
+    margin: 10px;
+    width: 200px;
+}
+
+#f1 {
+    width: 200px;
+    margin: 10px;
+    height: 50px;
+    border-radius: 0%;
+}
+
+.copyright {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    /* background: black; */
+    font-weight: 300;
+    margin-top: 20px;
+}
